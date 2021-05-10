@@ -21,11 +21,11 @@ export default function HomeSection() {
                         Are you my next employer? Send me an E-mail or hit me up on LinkedIn. <br/>
                         If you're uncertain, keep reading and I might just change your mind!
                       </h2>
-                      <p>
+                      {/*<p>
                         <a className="btn btn-primary btn-learn" style={{borderColor: "white", color: "white"}}>
                           Download CV <i className="icon-download4" />
                         </a>
-                      </p>
+                      </p>*/}
                     </div>
                   </div>
                 </div>
