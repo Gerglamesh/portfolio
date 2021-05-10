@@ -178,8 +178,9 @@
     align-self: center;
 }
 
-#game-over-display {
-    width: 15rem;
+#game-over-display {   
+    width: 18rem;
+    height: 18rem;
     align-self: center; 
     position: absolute;  
     align-items: center;
