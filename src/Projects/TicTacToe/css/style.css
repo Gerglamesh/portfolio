@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Muli&display=swap');
+
+#game-area {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 10px;
+    border-style: solid;
+    border-color: burlywood;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 1px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    padding: 2% 6%;
+
+    width: 100%;
+
+    background-color:lightslategrey;
+    color: ivory; 
+}
+
+
+.game-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+}
+
+/*PLAYER SETUP*/
+#player-setup {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.option-row {
+    display: flex;
+    align-items: baseline;
+}
+
+.option-row p {
+    font-family: 'Lacquer', sans-serif;
+    font-size: 1.5rem;
+    color: ivory;
+}
+
+.droplist {
+    font-family: 'Lacquer', sans-serif;
+    font-size: 1.5rem;
+    color: ivory;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.droplist option {
+    color: black;
+}
+
+
+/*DIFFICULTY*/
+#slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#difficulty-slider {
+    margin-top: 10px;
+    width: 15rem;
+}
+
+#slider-container p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: orange;
+}
+
+#score-board {
+    align-items: initial;
+    justify-content: space-between;
+    color: ivory;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: burlywood;
+}
+
+#score-board p {
+    padding: 10px;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 2rem;
+}
+
+#score-header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#reset-button {
+    background-color: transparent;
+    color: ivory;
+    border-style: none;
+    outline: none;
+    width: 5rem;
+    margin: 10px;
+    border-radius: 3px;
+    align-self: center;
+}
+
+#header {
+    top: 0;
+    height: 10rem;
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+#header a {
+    font-size: 4rem;
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+#header img {
+    margin-left: 1rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+#board-container {
+    margin: 3%;
+}
+
+#game-board {
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+}
+
+.gameCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    border: 0.1rem dashed ivory;
+    width: 6rem;
+    height: 6rem;
+}
+
+.gameRow {
+    display: flex;
+    flex-direction: row;
+    border-style: none;
+}
+
+#start-button {
+    margin: 1rem;
+    background-color: transparent;
+    color: ivory;
+    border-style: none;
+    outline: none;
+    margin: 10px;
+    border-radius: 3px;
+    align-self: center;
+}
+
+#game-over-display {
+    width: 15rem;
+    align-self: center; 
+    position: absolute;  
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: burlywood;
+    background-color: rgba(0, 0, 0, 0.657);
+}
+
+#game-over-display p {
+    color: tomato;
+    font-size: 4rem;
+    text-align: center;
+}
